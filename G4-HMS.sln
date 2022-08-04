@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "G4-HMS", "G4-HMS.vbproj", "{97FF4566-F8DB-437E-B5E2-F2C70DA3C13C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97FF4566-F8DB-437E-B5E2-F2C70DA3C13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FF4566-F8DB-437E-B5E2-F2C70DA3C13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FF4566-F8DB-437E-B5E2-F2C70DA3C13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FF4566-F8DB-437E-B5E2-F2C70DA3C13C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA6C7E82-C9D4-440F-8175-C2F9A019F1F2}
+	EndGlobalSection
+EndGlobal
