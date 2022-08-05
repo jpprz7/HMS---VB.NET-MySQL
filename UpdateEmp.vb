@@ -1,21 +1,21 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-2I
-'FDBMS
+
 Imports MySql.Data.MySqlClient
 
 Public Class UpdateEmp
     Dim connect As MySqlConnection
-    Dim constring As String = "DATA SOURCE = localhost; USER id = root; DATABASE = votingsystem_perez"
+    Dim constring As String = "DATA SOURCE = localhost; USER id = root; DATABASE = hms"
     Dim cmd As MySqlCommand
     Dim itemcol(999) As String
     Dim da As MySqlDataAdapter
     Dim ds As DataSet
-    Public Sub Voterinfo()
+    Public Sub EmpInfo()
         Try
             ListView1.Items.Clear()
             connect = New MySqlConnection(constring)
             connect.Open()
-            Dim sql As String = "SELECT * from voters"
+            Dim sql As String = "SELECT * from emp_record"
             cmd = New MySqlCommand(sql, connect)
             da = New MySqlDataAdapter(cmd)
             ds = New DataSet
@@ -32,25 +32,70 @@ Public Class UpdateEmp
         End Try
         connect.Close()
     End Sub
+
+    'clear form
     Public Sub Clearinfo()
         empID.Clear()
         firstname.Clear()
         lastname.Clear()
-        gender.Dispose()
+        gender.Clear()
         contactNum.Clear()
         email.Clear()
+        salary.Clear()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Call Voterinfo()
+        Call EmpInfo()
     End Sub
 
     'return button
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         adminform.Show()
         Me.Hide()
-        Call Voterinfo()
+        Call EmpInfo()
         Call Clearinfo()
+    End Sub
+
+    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
+        If ListView1.SelectedItems.Count > 0 Then
+            empID.Text = ListView1.SelectedItems(0).SubItems(0).Text
+            firstname.Text = ListView1.SelectedItems(0).SubItems(1).Text
+            lastname.Text = ListView1.SelectedItems(0).SubItems(2).Text
+            gender.Text = ListView1.SelectedItems(0).SubItems(3).Text
+            contactNum.Text = ListView1.SelectedItems(0).SubItems(4).Text
+            email.Text = ListView1.SelectedItems(0).SubItems(5).Text
+            salary.Text = ListView1.SelectedItems(0).SubItems(6).Text
+        End If
+    End Sub
+
+    'add button
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Try
+            connect = New MySqlConnection(constring)
+            connect.Open()
+            Dim SQL As String =
+                "INSERT INTO emp_record (efirstname, elastname, gender, contact_num, email, salary) 
+                values('" & firstname.Text & "',
+                '" & lastname.Text & "',
+                '" & gender.Text & "',
+                '" & contactNum.Text & "',
+                '" & email.Text & "',
+                '" & salary.Text & "');
+                "
+            cmd = New MySqlCommand(SQL, connect)
+            Dim i As Integer = cmd.ExecuteNonQuery
+
+            If i <> 0 Then
+                MsgBox("Employee info updated!", vbInformation, "Admin")
+            Else
+                MsgBox("Employee info update failed!", vbCritical, "Admin")
+            End If
+            Call EmpInfo()
+            Call Clearinfo()
+            connect.Close()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 
     'update button
@@ -59,33 +104,27 @@ Public Class UpdateEmp
             connect = New MySqlConnection(constring)
             connect.Open()
             Dim SQL As String =
-                "UPDATE voters SET First_name = '" & firstname.Text & "',
-                Last_name = '" & lastname.Text & "',
-                Course = '" & gender.Text & "',Year = '" & contactNum.Text & "',
-                Email ='" & email.Text & "'
-               WHERE Student_number = '" & empID.Text & "'"
+                "UPDATE emp_record SET efirstname = '" & firstname.Text & "',
+                elastname = '" & lastname.Text & "',
+                gender = '" & gender.Text & "',
+                contact_num= '" & contactNum.Text & "',
+                email ='" & email.Text & "',
+                salary ='" & salary.Text & "'
+               WHERE emp_id = '" & empID.Text & "'"
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
 
             If i <> 0 Then
-                MsgBox("Voter info updated!", vbInformation, "Admin")
+                MsgBox("Employee info updated!", vbInformation, "Admin")
             Else
-                MsgBox("Voter info update failed!", vbCritical, "Admin")
+                MsgBox("Employee info update failed!", vbCritical, "Admin")
             End If
-            Call Voterinfo()
+            Call EmpInfo()
             Call Clearinfo()
             connect.Close()
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-    End Sub
-
-    Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
-        If ListView1.SelectedItems.Count > 0 Then
-            empID.Text = ListView1.SelectedItems(0).SubItems(0).Text
-            firstname.Text = ListView1.SelectedItems(0).SubItems(1).Text
-            lastname.Text = ListView1.SelectedItems(0).SubItems(2).Text
-        End If
     End Sub
 
     'delete button
@@ -93,16 +132,16 @@ Public Class UpdateEmp
         Try
             connect = New MySqlConnection(constring)
             connect.Open()
-            Dim SQL As String = "DELETE FROM voters WHERE Student_number = '" & empID.Text & "' "
+            Dim SQL As String = "DELETE FROM emp_record WHERE emp_id = '" & empID.Text & "' "
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
 
             If i <> 0 Then
-                MsgBox("Voter info deleted!", vbInformation, "Admin")
+                MsgBox("Employee info deleted!", vbInformation, "Admin")
             Else
-                MsgBox("Voter info deletion failed!", vbCritical, "Admin")
+                MsgBox("Employee info deletion failed!", vbCritical, "Admin")
             End If
-            Call Voterinfo()
+            Call EmpInfo()
             Call Clearinfo()
             connect.Close()
         Catch ex As Exception
@@ -110,4 +149,11 @@ Public Class UpdateEmp
         End Try
     End Sub
 
+    Private Sub contactNum_TextChanged(sender As Object, e As EventArgs) Handles contactNum.TextChanged
+
+    End Sub
+
+    Private Sub gender_TextChanged(sender As Object, e As EventArgs) Handles gender.TextChanged
+
+    End Sub
 End Class

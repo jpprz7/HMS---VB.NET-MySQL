@@ -1,14 +1,14 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-2I
-'FDBMS
 Public Class adminform
-    'add vote
+
+    'checkin
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         checkin.Show()
         Me.Hide()
     End Sub
 
-    'update vote
+    'employee record
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         UpdateEmp.Show()
         Me.Hide()
@@ -26,12 +26,22 @@ Public Class adminform
         Me.Hide()
     End Sub
 
-    'view result
+    'cashier posting
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
     End Sub
 
     Private Sub FormMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    'transaction history
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+
+    End Sub
+
+    'payroll
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
 
     End Sub
 End Class

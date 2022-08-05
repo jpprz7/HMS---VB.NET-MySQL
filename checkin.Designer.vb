@@ -32,8 +32,6 @@ Partial Class checkin
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.Pricebox = New System.Windows.Forms.TextBox()
-        Me.customerid = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.firstname = New System.Windows.Forms.TextBox()
@@ -43,6 +41,10 @@ Partial Class checkin
         Me.Label15 = New System.Windows.Forms.Label()
         Me.nights = New System.Windows.Forms.TextBox()
         Me.connumber = New System.Windows.Forms.TextBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -53,7 +55,7 @@ Partial Class checkin
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(227, 533)
+        Me.Button2.Location = New System.Drawing.Point(216, 571)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(157, 41)
         Me.Button2.TabIndex = 13
@@ -111,7 +113,7 @@ Partial Class checkin
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.GroupBox1.Location = New System.Drawing.Point(83, 343)
+        Me.GroupBox1.Location = New System.Drawing.Point(64, 380)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(290, 170)
         Me.GroupBox1.TabIndex = 3
@@ -167,31 +169,9 @@ Partial Class checkin
         Me.Pricebox.Location = New System.Drawing.Point(30, 123)
         Me.Pricebox.Name = "Pricebox"
         Me.Pricebox.ReadOnly = True
-        Me.Pricebox.Size = New System.Drawing.Size(218, 31)
+        Me.Pricebox.Size = New System.Drawing.Size(232, 31)
         Me.Pricebox.TabIndex = 10
         Me.Pricebox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'customerid
-        '
-        Me.customerid.BackColor = System.Drawing.Color.White
-        Me.customerid.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.customerid.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.customerid.Location = New System.Drawing.Point(81, 54)
-        Me.customerid.MaxLength = 20
-        Me.customerid.Name = "customerid"
-        Me.customerid.Size = New System.Drawing.Size(248, 27)
-        Me.customerid.TabIndex = 0
-        Me.customerid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(80, 33)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(125, 18)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Customer ID:"
         '
         'Button1
         '
@@ -200,7 +180,7 @@ Partial Class checkin
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(59, 533)
+        Me.Button1.Location = New System.Drawing.Point(53, 571)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(157, 41)
         Me.Button1.TabIndex = 14
@@ -211,7 +191,7 @@ Partial Class checkin
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(79, 99)
+        Me.Label3.Location = New System.Drawing.Point(60, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(106, 18)
         Me.Label3.TabIndex = 16
@@ -222,7 +202,7 @@ Partial Class checkin
         Me.firstname.BackColor = System.Drawing.Color.White
         Me.firstname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.firstname.Location = New System.Drawing.Point(81, 120)
+        Me.firstname.Location = New System.Drawing.Point(62, 44)
         Me.firstname.MaxLength = 50
         Me.firstname.Name = "firstname"
         Me.firstname.Size = New System.Drawing.Size(292, 27)
@@ -233,7 +213,7 @@ Partial Class checkin
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(80, 161)
+        Me.Label11.Location = New System.Drawing.Point(61, 85)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(105, 18)
         Me.Label11.TabIndex = 20
@@ -244,7 +224,7 @@ Partial Class checkin
         Me.lastname.BackColor = System.Drawing.Color.White
         Me.lastname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.lastname.Location = New System.Drawing.Point(81, 182)
+        Me.lastname.Location = New System.Drawing.Point(62, 106)
         Me.lastname.MaxLength = 50
         Me.lastname.Name = "lastname"
         Me.lastname.Size = New System.Drawing.Size(292, 27)
@@ -255,7 +235,7 @@ Partial Class checkin
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(78, 296)
+        Me.Label12.Location = New System.Drawing.Point(60, 342)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(165, 18)
         Me.Label12.TabIndex = 22
@@ -265,7 +245,7 @@ Partial Class checkin
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(80, 224)
+        Me.Label15.Location = New System.Drawing.Point(61, 148)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(155, 18)
         Me.Label15.TabIndex = 28
@@ -276,8 +256,8 @@ Partial Class checkin
         Me.nights.BackColor = System.Drawing.Color.White
         Me.nights.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nights.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.nights.Location = New System.Drawing.Point(249, 293)
-        Me.nights.MaxLength = 2
+        Me.nights.Location = New System.Drawing.Point(231, 339)
+        Me.nights.MaxLength = 50
         Me.nights.Name = "nights"
         Me.nights.Size = New System.Drawing.Size(124, 27)
         Me.nights.TabIndex = 5
@@ -288,19 +268,57 @@ Partial Class checkin
         Me.connumber.BackColor = System.Drawing.Color.White
         Me.connumber.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.connumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.connumber.Location = New System.Drawing.Point(81, 245)
+        Me.connumber.Location = New System.Drawing.Point(62, 169)
         Me.connumber.MaxLength = 13
         Me.connumber.Name = "connumber"
         Me.connumber.Size = New System.Drawing.Size(292, 27)
         Me.connumber.TabIndex = 4
         Me.connumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(62, 237)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(292, 23)
+        Me.DateTimePicker1.TabIndex = 29
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(61, 278)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(151, 18)
+        Me.Label1.TabIndex = 30
+        Me.Label1.Text = "Check-out Date:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(60, 216)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(137, 18)
+        Me.Label4.TabIndex = 32
+        Me.Label4.Text = "Check-in Date:"
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Location = New System.Drawing.Point(62, 299)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(292, 23)
+        Me.DateTimePicker2.TabIndex = 33
+        '
         'checkin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(449, 613)
+        Me.ClientSize = New System.Drawing.Size(419, 646)
+        Me.Controls.Add(Me.DateTimePicker2)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.connumber)
         Me.Controls.Add(Me.nights)
         Me.Controls.Add(Me.Label15)
@@ -310,8 +328,6 @@ Partial Class checkin
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.firstname)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.customerid)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button2)
         Me.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -334,8 +350,6 @@ Partial Class checkin
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents customerid As TextBox
-    Friend WithEvents Label2 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Pricebox As TextBox
     Friend WithEvents Label3 As Label
@@ -349,4 +363,8 @@ Partial Class checkin
     Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents RadioButton5 As RadioButton
     Friend WithEvents RadioButton6 As RadioButton
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents DateTimePicker2 As DateTimePicker
 End Class

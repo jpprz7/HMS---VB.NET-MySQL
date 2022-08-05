@@ -1,11 +1,10 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-2I
-'FDBMS
 
 Imports MySql.Data.MySqlClient
 Public Class checkin
     Dim connect As MySqlConnection
-    Dim constring As String = "DATA SOURCE = localhost; USER id = root; DATABASE = votingsystem_perez"
+    Dim constring As String = "DATA SOURCE = localhost; USER id = root; DATABASE = hms"
     Dim cmd As MySqlCommand
 
     Dim roomtype, price As String
@@ -13,7 +12,6 @@ Public Class checkin
 
     'pang clear sa form
     Public Sub Clearform()
-        customerid.Clear()
         firstname.Clear()
         lastname.Clear()
         connumber.Clear()
@@ -25,25 +23,25 @@ Public Class checkin
         RadioButton4.Checked = False
         RadioButton5.Checked = False
         RadioButton6.Checked = False
+        DateTimePicker1.ResetText()
+        DateTimePicker2.ResetText()
     End Sub
 
-    'submit vote
+    'checkin button
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             connect = New MySqlConnection(constring)
             connect.Open()
-            Dim SQL As String = "INSERT INTO voters (Student_number, First_name, Last_name, Course, Year, Email) 
-                values('" & customerid.Text & "','" & firstname.Text & "','" & lastname.Text & "','" & connumber.Text & "','" & nights.Text & "');
-                INSERT INTO candidates (full_name, Position) 
-                values('" & roomtype & "','" & price & "');
+            Dim SQL As String = "INSERT INTO customer_checkin (cfirstname, clastname, ccontact_num, room_type, checkin, checkout, nights) 
+                values('" & firstname.Text & "','" & lastname.Text & "','" & connumber.Text & "','" & roomtype & "','" & DateTimePicker1.Value & "','" & DateTimePicker2.Value & "','" & nights.Text & "');
                 "
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
 
             If i <> 0 Then
-                MsgBox("Vote successful!", vbInformation, "Admin")
+                MsgBox("Check-in successful!", vbInformation, "Admin")
             Else
-                MsgBox("Vote failed!", vbCritical, "Admin")
+                MsgBox("Check-in failed!", vbCritical, "Admin")
             End If
             Call Clearform()
             connect.Close()
@@ -58,7 +56,7 @@ Public Class checkin
 
     End Sub
 
-    'return button
+    'cancel button
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         adminform.Show()
         Me.Hide()
@@ -131,6 +129,29 @@ Public Class checkin
         Else
             Pricebox.Clear()
         End If
+    End Sub
+
+    Private Sub customerid_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
+        Dim dt1 As DateTime = Convert.ToDateTime(DateTimePicker1.Text)
+    End Sub
+
+    Private Sub firstname_TextChanged(sender As Object, e As EventArgs) Handles firstname.TextChanged
+
+    End Sub
+
+    Private Sub nights_TextChanged(sender As Object, e As EventArgs) Handles nights.TextChanged
+
+    End Sub
+
+    Private Sub DateTimePicker2_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker2.ValueChanged
+        Dim dt1 As DateTime = Convert.ToDateTime(DateTimePicker1.Text)
+        Dim dt2 As DateTime = Convert.ToDateTime(DateTimePicker2.Text)
+        Dim ts As TimeSpan = dt2.Subtract(dt1)
+        nights.Text = ts.Days
     End Sub
 
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter

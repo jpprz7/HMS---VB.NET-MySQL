@@ -46,6 +46,9 @@ Partial Class UpdateEmp
         Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.salary = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button2
@@ -185,7 +188,7 @@ Partial Class UpdateEmp
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(267, 600)
+        Me.Button1.Location = New System.Drawing.Point(369, 602)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(130, 42)
         Me.Button1.TabIndex = 37
@@ -210,7 +213,7 @@ Partial Class UpdateEmp
         Me.gender.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gender.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.gender.Location = New System.Drawing.Point(482, 418)
-        Me.gender.MaxLength = 50
+        Me.gender.MaxLength = 1
         Me.gender.Name = "gender"
         Me.gender.Size = New System.Drawing.Size(96, 27)
         Me.gender.TabIndex = 34
@@ -223,7 +226,7 @@ Partial Class UpdateEmp
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(418, 600)
+        Me.Button3.Location = New System.Drawing.Point(520, 602)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(130, 42)
         Me.Button3.TabIndex = 38
@@ -280,12 +283,52 @@ Partial Class UpdateEmp
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
+        'salary
+        '
+        Me.salary.BackColor = System.Drawing.Color.White
+        Me.salary.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salary.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.salary.Location = New System.Drawing.Point(625, 418)
+        Me.salary.MaxLength = 6
+        Me.salary.Name = "salary"
+        Me.salary.Size = New System.Drawing.Size(163, 27)
+        Me.salary.TabIndex = 45
+        Me.salary.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(622, 397)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(69, 18)
+        Me.Label1.TabIndex = 46
+        Me.Label1.Text = "Salary:"
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
+        Me.Button4.Location = New System.Drawing.Point(214, 602)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(130, 42)
+        Me.Button4.TabIndex = 47
+        Me.Button4.Text = "Add"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'UpdateEmp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(863, 668)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.salary)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.gender)
         Me.Controls.Add(Me.contactNum)
@@ -309,7 +352,7 @@ Partial Class UpdateEmp
         Me.MaximizeBox = False
         Me.Name = "UpdateEmp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Employee Information"
+        Me.Text = "HMS Employee Information"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -338,4 +381,7 @@ Partial Class UpdateEmp
     Friend WithEvents ColumnHeader6 As ColumnHeader
     Friend WithEvents ColumnHeader7 As ColumnHeader
     Friend WithEvents ListView1 As ListView
+    Friend WithEvents salary As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Button4 As Button
 End Class

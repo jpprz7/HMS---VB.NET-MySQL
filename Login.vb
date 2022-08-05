@@ -1,6 +1,6 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-2I
-'FDBMS
+
 Public Class Login
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     End Sub
