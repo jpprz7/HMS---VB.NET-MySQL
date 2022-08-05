@@ -55,7 +55,7 @@ Partial Class checkin
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(216, 571)
+        Me.Button2.Location = New System.Drawing.Point(228, 576)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(157, 41)
         Me.Button2.TabIndex = 13
@@ -113,7 +113,7 @@ Partial Class checkin
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.GroupBox1.Location = New System.Drawing.Point(64, 380)
+        Me.GroupBox1.Location = New System.Drawing.Point(81, 385)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(290, 170)
         Me.GroupBox1.TabIndex = 3
@@ -180,18 +180,19 @@ Partial Class checkin
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(53, 571)
+        Me.Button1.Location = New System.Drawing.Point(65, 576)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(157, 41)
         Me.Button1.TabIndex = 14
-        Me.Button1.Text = "Check-in"
+        Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(60, 23)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(77, 28)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(106, 18)
         Me.Label3.TabIndex = 16
@@ -202,7 +203,7 @@ Partial Class checkin
         Me.firstname.BackColor = System.Drawing.Color.White
         Me.firstname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.firstname.Location = New System.Drawing.Point(62, 44)
+        Me.firstname.Location = New System.Drawing.Point(79, 49)
         Me.firstname.MaxLength = 50
         Me.firstname.Name = "firstname"
         Me.firstname.Size = New System.Drawing.Size(292, 27)
@@ -213,7 +214,8 @@ Partial Class checkin
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(61, 85)
+        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label11.Location = New System.Drawing.Point(78, 90)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(105, 18)
         Me.Label11.TabIndex = 20
@@ -224,7 +226,7 @@ Partial Class checkin
         Me.lastname.BackColor = System.Drawing.Color.White
         Me.lastname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.lastname.Location = New System.Drawing.Point(62, 106)
+        Me.lastname.Location = New System.Drawing.Point(79, 111)
         Me.lastname.MaxLength = 50
         Me.lastname.Name = "lastname"
         Me.lastname.Size = New System.Drawing.Size(292, 27)
@@ -235,7 +237,8 @@ Partial Class checkin
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(60, 342)
+        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label12.Location = New System.Drawing.Point(77, 347)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(165, 18)
         Me.Label12.TabIndex = 22
@@ -245,7 +248,8 @@ Partial Class checkin
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(61, 148)
+        Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label15.Location = New System.Drawing.Point(78, 153)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(155, 18)
         Me.Label15.TabIndex = 28
@@ -254,11 +258,13 @@ Partial Class checkin
         'nights
         '
         Me.nights.BackColor = System.Drawing.Color.White
+        Me.nights.Enabled = False
         Me.nights.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nights.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.nights.Location = New System.Drawing.Point(231, 339)
+        Me.nights.Location = New System.Drawing.Point(248, 344)
         Me.nights.MaxLength = 50
         Me.nights.Name = "nights"
+        Me.nights.ReadOnly = True
         Me.nights.Size = New System.Drawing.Size(124, 27)
         Me.nights.TabIndex = 5
         Me.nights.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -268,7 +274,7 @@ Partial Class checkin
         Me.connumber.BackColor = System.Drawing.Color.White
         Me.connumber.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.connumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.connumber.Location = New System.Drawing.Point(62, 169)
+        Me.connumber.Location = New System.Drawing.Point(79, 174)
         Me.connumber.MaxLength = 13
         Me.connumber.Name = "connumber"
         Me.connumber.Size = New System.Drawing.Size(292, 27)
@@ -277,7 +283,7 @@ Partial Class checkin
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(62, 237)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(79, 242)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(292, 23)
         Me.DateTimePicker1.TabIndex = 29
@@ -286,7 +292,8 @@ Partial Class checkin
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(61, 278)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(78, 283)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(151, 18)
         Me.Label1.TabIndex = 30
@@ -296,7 +303,8 @@ Partial Class checkin
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(60, 216)
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(77, 221)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(137, 18)
         Me.Label4.TabIndex = 32
@@ -304,7 +312,7 @@ Partial Class checkin
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(62, 299)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(79, 304)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(292, 23)
         Me.DateTimePicker2.TabIndex = 33
@@ -314,7 +322,7 @@ Partial Class checkin
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(419, 646)
+        Me.ClientSize = New System.Drawing.Size(440, 646)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
@@ -331,6 +339,7 @@ Partial Class checkin
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button2)
         Me.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)

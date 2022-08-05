@@ -6,7 +6,6 @@ Public Class checkin
     Dim connect As MySqlConnection
     Dim constring As String = "DATA SOURCE = localhost; USER id = root; DATABASE = hms"
     Dim cmd As MySqlCommand
-
     Dim roomtype, price As String
 
 
@@ -32,8 +31,8 @@ Public Class checkin
         Try
             connect = New MySqlConnection(constring)
             connect.Open()
-            Dim SQL As String = "INSERT INTO customer_checkin (cfirstname, clastname, ccontact_num, room_type, checkin, checkout, nights) 
-                values('" & firstname.Text & "','" & lastname.Text & "','" & connumber.Text & "','" & roomtype & "','" & DateTimePicker1.Value & "','" & DateTimePicker2.Value & "','" & nights.Text & "');
+            Dim SQL As String = "INSERT INTO customer_checkin (cfirstname, clastname, ccontact_num, room_type, checkin, checkout, nights, total) 
+                values('" & firstname.Text & "','" & lastname.Text & "','" & connumber.Text & "','" & roomtype & "','" & DateTimePicker1.Value & "','" & DateTimePicker2.Value & "','" & nights.Text & "', '" & price & "');
                 "
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
@@ -58,7 +57,7 @@ Public Class checkin
 
     'cancel button
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        adminform.Show()
+        staff.Show()
         Me.Hide()
         Call Clearform()
     End Sub
@@ -67,7 +66,7 @@ Public Class checkin
         If RadioButton1.Checked = True Then
             roomtype = "Single" 'roomtype
             price = nights.Text * 75 'price
-            Pricebox.Text = "$" + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
@@ -77,7 +76,7 @@ Public Class checkin
         If RadioButton2.Checked = True Then
             roomtype = "Twin" 'roomtype
             price = nights.Text * 95 'price
-            Pricebox.Text = "$ " + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
@@ -87,7 +86,7 @@ Public Class checkin
         If RadioButton3.Checked = True Then
             roomtype = "Studio" 'roomtype
             price = nights.Text * 125 'price
-            Pricebox.Text = "$ " + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
@@ -97,14 +96,10 @@ Public Class checkin
         If RadioButton6.Checked = True Then
             roomtype = "Presidential" 'roomtype
             price = nights.Text * 520 'price
-            Pricebox.Text = "$ " + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
-    End Sub
-
-    Private Sub Price_TextChanged(sender As Object, e As EventArgs) Handles Pricebox.TextChanged
-
     End Sub
 
     Private Sub checkin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -115,7 +110,7 @@ Public Class checkin
         If RadioButton5.Checked = True Then
             roomtype = "Penthouse" 'roomtype
             price = nights.Text * 345 'price
-            Pricebox.Text = "$ " + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
@@ -125,7 +120,7 @@ Public Class checkin
         If RadioButton4.Checked = True Then
             roomtype = "Deluxe" 'roomtype
             price = nights.Text * 237 'price
-            Pricebox.Text = "$ " + price 'display the price
+            Pricebox.Text = price 'display the price
         Else
             Pricebox.Clear()
         End If
@@ -152,6 +147,10 @@ Public Class checkin
         Dim dt2 As DateTime = Convert.ToDateTime(DateTimePicker2.Text)
         Dim ts As TimeSpan = dt2.Subtract(dt1)
         nights.Text = ts.Days
+    End Sub
+
+    Private Sub Pricebox_TextChanged(sender As Object, e As EventArgs) Handles Pricebox.TextChanged
+
     End Sub
 
     Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter

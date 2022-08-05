@@ -23,30 +23,13 @@ Partial Class adminform
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(adminform))
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button1.Location = New System.Drawing.Point(59, 99)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(338, 48)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Check-in"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -55,7 +38,7 @@ Partial Class adminform
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(59, 266)
+        Me.Button2.Location = New System.Drawing.Point(64, 102)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(338, 48)
         Me.Button2.TabIndex = 6
@@ -69,7 +52,7 @@ Partial Class adminform
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(59, 433)
+        Me.Button3.Location = New System.Drawing.Point(64, 269)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(338, 48)
         Me.Button3.TabIndex = 9
@@ -83,26 +66,12 @@ Partial Class adminform
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button4.Location = New System.Drawing.Point(59, 377)
+        Me.Button4.Location = New System.Drawing.Point(64, 213)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(338, 48)
         Me.Button4.TabIndex = 8
         Me.Button4.Text = "About"
         Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button5.Location = New System.Drawing.Point(59, 155)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(338, 48)
-        Me.Button5.TabIndex = 7
-        Me.Button5.Text = "Cashier Posting"
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'Label4
         '
@@ -137,26 +106,12 @@ Partial Class adminform
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button6.Location = New System.Drawing.Point(59, 322)
+        Me.Button6.Location = New System.Drawing.Point(64, 158)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(338, 48)
         Me.Button6.TabIndex = 12
         Me.Button6.Text = "Employee Payroll"
         Me.Button6.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button8.Location = New System.Drawing.Point(59, 209)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(338, 48)
-        Me.Button8.TabIndex = 14
-        Me.Button8.Text = "Transaction History"
-        Me.Button8.UseVisualStyleBackColor = False
         '
         'adminform
         '
@@ -164,16 +119,13 @@ Partial Class adminform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(455, 517)
-        Me.Controls.Add(Me.Button8)
+        Me.ClientSize = New System.Drawing.Size(455, 355)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
@@ -187,14 +139,10 @@ Partial Class adminform
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Button6 As Button
-    Friend WithEvents Button8 As Button
 End Class

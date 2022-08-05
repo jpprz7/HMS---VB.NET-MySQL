@@ -38,3 +38,6 @@ C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\G4-HMS.vbproj.
 C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.exe
 C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.xml
 C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.pdb
+C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.history.resources
+C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.staff.resources
+C:\Users\jpper\Desktop\Group 4 - HMS\HMS---VB.NET-MySQL\obj\Debug\VotingSystem_Perez.payroll.resources

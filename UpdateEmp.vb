@@ -41,9 +41,9 @@ Public Class UpdateEmp
         gender.Clear()
         contactNum.Clear()
         email.Clear()
-        salary.Clear()
     End Sub
 
+    'call db
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call EmpInfo()
     End Sub
@@ -64,7 +64,6 @@ Public Class UpdateEmp
             gender.Text = ListView1.SelectedItems(0).SubItems(3).Text
             contactNum.Text = ListView1.SelectedItems(0).SubItems(4).Text
             email.Text = ListView1.SelectedItems(0).SubItems(5).Text
-            salary.Text = ListView1.SelectedItems(0).SubItems(6).Text
         End If
     End Sub
 
@@ -80,7 +79,7 @@ Public Class UpdateEmp
                 '" & gender.Text & "',
                 '" & contactNum.Text & "',
                 '" & email.Text & "',
-                '" & salary.Text & "');
+                '0');
                 "
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
@@ -109,7 +108,6 @@ Public Class UpdateEmp
                 gender = '" & gender.Text & "',
                 contact_num= '" & contactNum.Text & "',
                 email ='" & email.Text & "',
-                salary ='" & salary.Text & "'
                WHERE emp_id = '" & empID.Text & "'"
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
@@ -149,11 +147,4 @@ Public Class UpdateEmp
         End Try
     End Sub
 
-    Private Sub contactNum_TextChanged(sender As Object, e As EventArgs) Handles contactNum.TextChanged
-
-    End Sub
-
-    Private Sub gender_TextChanged(sender As Object, e As EventArgs) Handles gender.TextChanged
-
-    End Sub
 End Class

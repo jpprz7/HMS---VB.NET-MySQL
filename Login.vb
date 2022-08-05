@@ -23,6 +23,12 @@ Public Class Login
             user.Clear()
             pass.Clear()
             CheckBox1.CheckState = False
+        ElseIf user.Text = "staff" And pass.Text = "staff" Then
+            staff.Show()
+            Me.Hide()
+            user.Clear()
+            pass.Clear()
+            CheckBox1.CheckState = False
         Else
             MsgBox("Wrong username/password!", vbCritical, "Login failed")
         End If
