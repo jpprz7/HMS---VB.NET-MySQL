@@ -37,11 +37,11 @@ Partial Class About
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(95, 131)
+        Me.Label1.Location = New System.Drawing.Point(73, 128)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(218, 23)
+        Me.Label1.Size = New System.Drawing.Size(269, 25)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Perez, John Patrick A."
         '
@@ -51,7 +51,7 @@ Partial Class About
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label2.Location = New System.Drawing.Point(162, 109)
+        Me.Label2.Location = New System.Drawing.Point(147, 110)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(95, 18)
         Me.Label2.TabIndex = 8
@@ -63,7 +63,7 @@ Partial Class About
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label7.Location = New System.Drawing.Point(170, 246)
+        Me.Label7.Location = New System.Drawing.Point(162, 243)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(70, 18)
         Me.Label7.TabIndex = 14
@@ -73,11 +73,11 @@ Partial Class About
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(160, 264)
+        Me.Label8.Location = New System.Drawing.Point(143, 261)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(84, 23)
+        Me.Label8.Size = New System.Drawing.Size(104, 25)
         Me.Label8.TabIndex = 13
         Me.Label8.Text = "BSIT-2I"
         '
@@ -110,11 +110,11 @@ Partial Class About
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(106, 168)
+        Me.Label3.Location = New System.Drawing.Point(84, 165)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(191, 23)
+        Me.Label3.Size = New System.Drawing.Size(233, 25)
         Me.Label3.TabIndex = 17
         Me.Label3.Text = "Roldan, Jay Harold"
         '
@@ -122,11 +122,11 @@ Partial Class About
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(116, 203)
+        Me.Label5.Location = New System.Drawing.Point(94, 200)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(173, 23)
+        Me.Label5.Size = New System.Drawing.Size(212, 25)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "Nicolas, Kenshyn"
         '
@@ -135,7 +135,7 @@ Partial Class About
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(399, 312)
+        Me.ClientSize = New System.Drawing.Size(399, 300)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)

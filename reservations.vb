@@ -1,4 +1,7 @@
-﻿Imports MySql.Data.MySqlClient
+﻿'created by: Perez, John Patrick A.
+'BSIT-2I
+
+Imports MySql.Data.MySqlClient
 
 Public Class reservations
     Dim connect As MySqlConnection

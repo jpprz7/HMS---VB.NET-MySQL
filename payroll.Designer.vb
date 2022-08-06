@@ -49,11 +49,11 @@ Partial Class payroll
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(293, 20)
+        Me.Label4.Location = New System.Drawing.Point(237, 17)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(245, 29)
+        Me.Label4.Size = New System.Drawing.Size(327, 38)
         Me.Label4.TabIndex = 65
         Me.Label4.Text = "Employee Payroll"
         '
@@ -61,24 +61,24 @@ Partial Class payroll
         '
         Me.salary.BackColor = System.Drawing.Color.White
         Me.salary.Enabled = False
-        Me.salary.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.salary.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.salary.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.salary.Location = New System.Drawing.Point(348, 497)
+        Me.salary.Location = New System.Drawing.Point(332, 500)
         Me.salary.MaxLength = 6
         Me.salary.Name = "salary"
         Me.salary.ReadOnly = True
-        Me.salary.Size = New System.Drawing.Size(169, 27)
+        Me.salary.Size = New System.Drawing.Size(169, 31)
         Me.salary.TabIndex = 63
         Me.salary.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(345, 476)
+        Me.Label1.Location = New System.Drawing.Point(328, 474)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 18)
+        Me.Label1.Size = New System.Drawing.Size(86, 23)
         Me.Label1.TabIndex = 64
         Me.Label1.Text = "Salary:"
         '
@@ -90,9 +90,9 @@ Partial Class payroll
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(71, 55)
+        Me.ListView1.Location = New System.Drawing.Point(66, 67)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(673, 335)
+        Me.ListView1.Size = New System.Drawing.Size(673, 313)
         Me.ListView1.TabIndex = 54
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -110,7 +110,7 @@ Partial Class payroll
         'ColumnHeader3
         '
         Me.ColumnHeader3.Text = "Last name"
-        Me.ColumnHeader3.Width = 183
+        Me.ColumnHeader3.Width = 182
         '
         'ColumnHeader4
         '
@@ -124,7 +124,7 @@ Partial Class payroll
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(274, 543)
+        Me.Button1.Location = New System.Drawing.Point(179, 560)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(215, 42)
         Me.Button1.TabIndex = 60
@@ -134,11 +134,11 @@ Partial Class payroll
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(68, 476)
+        Me.Label11.Location = New System.Drawing.Point(51, 474)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(105, 18)
+        Me.Label11.Size = New System.Drawing.Size(130, 23)
         Me.Label11.TabIndex = 61
         Me.Label11.Text = "Last name:"
         '
@@ -146,24 +146,24 @@ Partial Class payroll
         '
         Me.lastname.BackColor = System.Drawing.Color.White
         Me.lastname.Enabled = False
-        Me.lastname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lastname.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.lastname.Location = New System.Drawing.Point(71, 497)
+        Me.lastname.Location = New System.Drawing.Point(55, 500)
         Me.lastname.MaxLength = 50
         Me.lastname.Name = "lastname"
         Me.lastname.ReadOnly = True
-        Me.lastname.Size = New System.Drawing.Size(245, 27)
+        Me.lastname.Size = New System.Drawing.Size(245, 31)
         Me.lastname.TabIndex = 58
         Me.lastname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(67, 405)
+        Me.Label3.Location = New System.Drawing.Point(52, 403)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(106, 18)
+        Me.Label3.Size = New System.Drawing.Size(133, 23)
         Me.Label3.TabIndex = 59
         Me.Label3.Text = "First name:"
         '
@@ -171,38 +171,38 @@ Partial Class payroll
         '
         Me.firstname.BackColor = System.Drawing.Color.White
         Me.firstname.Enabled = False
-        Me.firstname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstname.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.firstname.Location = New System.Drawing.Point(70, 426)
+        Me.firstname.Location = New System.Drawing.Point(54, 429)
         Me.firstname.MaxLength = 50
         Me.firstname.Name = "firstname"
         Me.firstname.ReadOnly = True
-        Me.firstname.Size = New System.Drawing.Size(245, 27)
+        Me.firstname.Size = New System.Drawing.Size(245, 31)
         Me.firstname.TabIndex = 56
         Me.firstname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(345, 405)
+        Me.Label2.Location = New System.Drawing.Point(328, 403)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(172, 18)
+        Me.Label2.Size = New System.Drawing.Size(163, 23)
         Me.Label2.TabIndex = 57
-        Me.Label2.Text = "Employee number:"
+        Me.Label2.Text = "Employee no.:"
         '
         'empID
         '
         Me.empID.BackColor = System.Drawing.Color.White
         Me.empID.Enabled = False
-        Me.empID.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.empID.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empID.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.empID.Location = New System.Drawing.Point(348, 426)
+        Me.empID.Location = New System.Drawing.Point(332, 429)
         Me.empID.MaxLength = 20
         Me.empID.Name = "empID"
         Me.empID.ReadOnly = True
-        Me.empID.Size = New System.Drawing.Size(169, 27)
+        Me.empID.Size = New System.Drawing.Size(169, 31)
         Me.empID.TabIndex = 55
         Me.empID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -211,11 +211,11 @@ Partial Class payroll
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(9, 9)
+        Me.Button2.Location = New System.Drawing.Point(417, 560)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(70, 26)
+        Me.Button2.Size = New System.Drawing.Size(215, 42)
         Me.Button2.TabIndex = 53
         Me.Button2.Text = "Return"
         Me.Button2.UseVisualStyleBackColor = False
@@ -223,46 +223,46 @@ Partial Class payroll
         'hrs
         '
         Me.hrs.BackColor = System.Drawing.Color.White
-        Me.hrs.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.hrs.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hrs.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.hrs.Location = New System.Drawing.Point(553, 497)
+        Me.hrs.Location = New System.Drawing.Point(537, 500)
         Me.hrs.MaxLength = 6
         Me.hrs.Name = "hrs"
-        Me.hrs.Size = New System.Drawing.Size(191, 27)
+        Me.hrs.Size = New System.Drawing.Size(137, 31)
         Me.hrs.TabIndex = 66
         Me.hrs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(550, 476)
+        Me.Label5.Location = New System.Drawing.Point(533, 474)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(194, 18)
+        Me.Label5.Size = New System.Drawing.Size(168, 23)
         Me.Label5.TabIndex = 67
-        Me.Label5.Text = "No. of hours worked:"
+        Me.Label5.Text = "Hours worked:"
         '
         'rate
         '
         Me.rate.BackColor = System.Drawing.Color.White
-        Me.rate.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rate.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rate.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.rate.Location = New System.Drawing.Point(553, 426)
+        Me.rate.Location = New System.Drawing.Point(537, 429)
         Me.rate.MaxLength = 6
         Me.rate.Name = "rate"
-        Me.rate.Size = New System.Drawing.Size(191, 27)
+        Me.rate.Size = New System.Drawing.Size(137, 31)
         Me.rate.TabIndex = 68
         Me.rate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(550, 405)
+        Me.Label6.Location = New System.Drawing.Point(533, 403)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(113, 18)
+        Me.Label6.Size = New System.Drawing.Size(140, 23)
         Me.Label6.TabIndex = 69
         Me.Label6.Text = "Hourly rate:"
         '
@@ -271,7 +271,7 @@ Partial Class payroll
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(808, 606)
+        Me.ClientSize = New System.Drawing.Size(798, 631)
         Me.Controls.Add(Me.rate)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.hrs)

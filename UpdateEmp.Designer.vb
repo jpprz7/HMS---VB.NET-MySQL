@@ -57,7 +57,7 @@ Partial Class UpdateEmp
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(9, 9)
+        Me.Button2.Location = New System.Drawing.Point(12, 12)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(70, 26)
         Me.Button2.TabIndex = 2
@@ -67,102 +67,102 @@ Partial Class UpdateEmp
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(467, 349)
+        Me.Label15.Location = New System.Drawing.Point(494, 376)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(79, 18)
+        Me.Label15.Size = New System.Drawing.Size(95, 23)
         Me.Label15.TabIndex = 44
         Me.Label15.Text = "Gender:"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label13.Location = New System.Drawing.Point(467, 484)
+        Me.Label13.Location = New System.Drawing.Point(494, 511)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(60, 18)
+        Me.Label13.Size = New System.Drawing.Size(78, 23)
         Me.Label13.TabIndex = 40
         Me.Label13.Text = "Email:"
         '
         'email
         '
         Me.email.BackColor = System.Drawing.Color.White
-        Me.email.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.email.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.email.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.email.Location = New System.Drawing.Point(470, 505)
+        Me.email.Location = New System.Drawing.Point(498, 537)
         Me.email.MaxLength = 50
         Me.email.Name = "email"
-        Me.email.Size = New System.Drawing.Size(261, 27)
+        Me.email.Size = New System.Drawing.Size(261, 31)
         Me.email.TabIndex = 36
         Me.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(471, 413)
+        Me.Label12.Location = New System.Drawing.Point(494, 445)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(155, 18)
+        Me.Label12.Size = New System.Drawing.Size(191, 23)
         Me.Label12.TabIndex = 38
         Me.Label12.Text = "Contact number:"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(127, 484)
+        Me.Label11.Location = New System.Drawing.Point(153, 516)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(105, 18)
+        Me.Label11.Size = New System.Drawing.Size(130, 23)
         Me.Label11.TabIndex = 37
         Me.Label11.Text = "Last name:"
         '
         'lastname
         '
         Me.lastname.BackColor = System.Drawing.Color.White
-        Me.lastname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lastname.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lastname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.lastname.Location = New System.Drawing.Point(130, 505)
+        Me.lastname.Location = New System.Drawing.Point(157, 542)
         Me.lastname.MaxLength = 50
         Me.lastname.Name = "lastname"
-        Me.lastname.Size = New System.Drawing.Size(269, 27)
+        Me.lastname.Size = New System.Drawing.Size(269, 31)
         Me.lastname.TabIndex = 33
         Me.lastname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(126, 413)
+        Me.Label3.Location = New System.Drawing.Point(155, 445)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(106, 18)
+        Me.Label3.Size = New System.Drawing.Size(133, 23)
         Me.Label3.TabIndex = 33
         Me.Label3.Text = "First name:"
         '
         'firstname
         '
         Me.firstname.BackColor = System.Drawing.Color.White
-        Me.firstname.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstname.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.firstname.Location = New System.Drawing.Point(129, 434)
+        Me.firstname.Location = New System.Drawing.Point(157, 471)
         Me.firstname.MaxLength = 50
         Me.firstname.Name = "firstname"
-        Me.firstname.Size = New System.Drawing.Size(269, 27)
+        Me.firstname.Size = New System.Drawing.Size(269, 31)
         Me.firstname.TabIndex = 31
         Me.firstname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(126, 349)
+        Me.Label2.Location = New System.Drawing.Point(153, 376)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(172, 18)
+        Me.Label2.Size = New System.Drawing.Size(212, 23)
         Me.Label2.TabIndex = 31
         Me.Label2.Text = "Employee number:"
         '
@@ -170,13 +170,13 @@ Partial Class UpdateEmp
         '
         Me.empID.BackColor = System.Drawing.Color.White
         Me.empID.Enabled = False
-        Me.empID.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.empID.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.empID.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.empID.Location = New System.Drawing.Point(129, 370)
+        Me.empID.Location = New System.Drawing.Point(157, 402)
         Me.empID.MaxLength = 20
         Me.empID.Name = "empID"
         Me.empID.ReadOnly = True
-        Me.empID.Size = New System.Drawing.Size(269, 27)
+        Me.empID.Size = New System.Drawing.Size(220, 31)
         Me.empID.TabIndex = 30
         Me.empID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -187,7 +187,7 @@ Partial Class UpdateEmp
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(374, 554)
+        Me.Button1.Location = New System.Drawing.Point(401, 600)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(130, 42)
         Me.Button1.TabIndex = 37
@@ -197,24 +197,24 @@ Partial Class UpdateEmp
         'contactNum
         '
         Me.contactNum.BackColor = System.Drawing.Color.White
-        Me.contactNum.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.contactNum.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.contactNum.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.contactNum.Location = New System.Drawing.Point(470, 434)
+        Me.contactNum.Location = New System.Drawing.Point(498, 471)
         Me.contactNum.MaxLength = 50
         Me.contactNum.Name = "contactNum"
-        Me.contactNum.Size = New System.Drawing.Size(263, 27)
+        Me.contactNum.Size = New System.Drawing.Size(263, 31)
         Me.contactNum.TabIndex = 35
         Me.contactNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'gender
         '
         Me.gender.BackColor = System.Drawing.Color.White
-        Me.gender.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gender.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gender.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.gender.Location = New System.Drawing.Point(470, 370)
+        Me.gender.Location = New System.Drawing.Point(498, 402)
         Me.gender.MaxLength = 1
         Me.gender.Name = "gender"
-        Me.gender.Size = New System.Drawing.Size(168, 27)
+        Me.gender.Size = New System.Drawing.Size(101, 31)
         Me.gender.TabIndex = 34
         Me.gender.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -225,7 +225,7 @@ Partial Class UpdateEmp
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(525, 554)
+        Me.Button3.Location = New System.Drawing.Point(552, 600)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(130, 42)
         Me.Button3.TabIndex = 38
@@ -235,7 +235,7 @@ Partial Class UpdateEmp
         'ColumnHeader1
         '
         Me.ColumnHeader1.Text = "Emp_ID"
-        Me.ColumnHeader1.Width = 108
+        Me.ColumnHeader1.Width = 93
         '
         'ColumnHeader2
         '
@@ -245,6 +245,7 @@ Partial Class UpdateEmp
         'ColumnHeader4
         '
         Me.ColumnHeader4.Text = "Gender"
+        Me.ColumnHeader4.Width = 74
         '
         'ColumnHeader3
         '
@@ -259,7 +260,7 @@ Partial Class UpdateEmp
         'ColumnHeader6
         '
         Me.ColumnHeader6.Text = "Email"
-        Me.ColumnHeader6.Width = 151
+        Me.ColumnHeader6.Width = 154
         '
         'ColumnHeader7
         '
@@ -270,13 +271,13 @@ Partial Class UpdateEmp
         '
         Me.ListView1.BackColor = System.Drawing.Color.White
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7})
-        Me.ListView1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListView1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(20, 53)
+        Me.ListView1.Location = New System.Drawing.Point(53, 82)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(828, 280)
+        Me.ListView1.Size = New System.Drawing.Size(828, 276)
         Me.ListView1.TabIndex = 29
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -288,7 +289,7 @@ Partial Class UpdateEmp
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button4.Location = New System.Drawing.Point(219, 554)
+        Me.Button4.Location = New System.Drawing.Point(246, 600)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(130, 42)
         Me.Button4.TabIndex = 47
@@ -299,11 +300,11 @@ Partial Class UpdateEmp
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(280, 17)
+        Me.Label4.Location = New System.Drawing.Point(253, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(312, 29)
+        Me.Label4.Size = New System.Drawing.Size(420, 38)
         Me.Label4.TabIndex = 52
         Me.Label4.Text = "Employee Information"
         '
@@ -312,7 +313,7 @@ Partial Class UpdateEmp
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(863, 620)
+        Me.ClientSize = New System.Drawing.Size(934, 672)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)

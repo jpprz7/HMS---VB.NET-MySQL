@@ -38,7 +38,7 @@ Partial Class adminform
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(64, 102)
+        Me.Button2.Location = New System.Drawing.Point(65, 108)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(338, 48)
         Me.Button2.TabIndex = 6
@@ -52,7 +52,7 @@ Partial Class adminform
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(64, 269)
+        Me.Button3.Location = New System.Drawing.Point(65, 279)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(338, 48)
         Me.Button3.TabIndex = 9
@@ -66,7 +66,7 @@ Partial Class adminform
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button4.Location = New System.Drawing.Point(64, 213)
+        Me.Button4.Location = New System.Drawing.Point(65, 222)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(338, 48)
         Me.Button4.TabIndex = 8
@@ -77,12 +77,12 @@ Partial Class adminform
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label4.Location = New System.Drawing.Point(-64, 0)
+        Me.Label4.Location = New System.Drawing.Point(-83, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Padding = New System.Windows.Forms.Padding(85, 4, 85, 4)
-        Me.Label4.Size = New System.Drawing.Size(584, 37)
+        Me.Label4.Size = New System.Drawing.Size(637, 40)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "HOTEL MANAGEMENT SYSTEM"
         '
@@ -90,12 +90,12 @@ Partial Class adminform
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Goldenrod
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(-1, 37)
+        Me.Label5.Location = New System.Drawing.Point(0, 40)
         Me.Label5.Name = "Label5"
         Me.Label5.Padding = New System.Windows.Forms.Padding(169, 4, 169, 4)
-        Me.Label5.Size = New System.Drawing.Size(459, 31)
+        Me.Label5.Size = New System.Drawing.Size(467, 33)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "   Admin   "
         '
@@ -106,7 +106,7 @@ Partial Class adminform
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button6.Location = New System.Drawing.Point(64, 158)
+        Me.Button6.Location = New System.Drawing.Point(65, 165)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(338, 48)
         Me.Button6.TabIndex = 12
@@ -119,7 +119,7 @@ Partial Class adminform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(455, 355)
+        Me.ClientSize = New System.Drawing.Size(466, 364)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)

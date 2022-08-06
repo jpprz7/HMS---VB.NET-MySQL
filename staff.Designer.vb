@@ -36,12 +36,12 @@ Partial Class staff
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label4.Location = New System.Drawing.Point(-64, 0)
+        Me.Label4.Location = New System.Drawing.Point(-83, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Padding = New System.Windows.Forms.Padding(85, 4, 85, 4)
-        Me.Label4.Size = New System.Drawing.Size(584, 37)
+        Me.Label4.Size = New System.Drawing.Size(637, 40)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "HOTEL MANAGEMENT SYSTEM"
         '
@@ -49,12 +49,12 @@ Partial Class staff
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Goldenrod
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(-6, 37)
+        Me.Label5.Location = New System.Drawing.Point(-4, 40)
         Me.Label5.Name = "Label5"
         Me.Label5.Padding = New System.Windows.Forms.Padding(169, 4, 169, 4)
-        Me.Label5.Size = New System.Drawing.Size(470, 31)
+        Me.Label5.Size = New System.Drawing.Size(477, 33)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "     Staff     "
         '
@@ -65,7 +65,7 @@ Partial Class staff
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button8.Location = New System.Drawing.Point(64, 158)
+        Me.Button8.Location = New System.Drawing.Point(66, 170)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(338, 48)
         Me.Button8.TabIndex = 18
@@ -79,7 +79,7 @@ Partial Class staff
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button4.Location = New System.Drawing.Point(64, 266)
+        Me.Button4.Location = New System.Drawing.Point(66, 284)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(338, 48)
         Me.Button4.TabIndex = 16
@@ -93,7 +93,7 @@ Partial Class staff
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(64, 322)
+        Me.Button3.Location = New System.Drawing.Point(66, 341)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(338, 48)
         Me.Button3.TabIndex = 17
@@ -107,7 +107,7 @@ Partial Class staff
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button1.Location = New System.Drawing.Point(64, 102)
+        Me.Button1.Location = New System.Drawing.Point(66, 113)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(338, 48)
         Me.Button1.TabIndex = 15
@@ -121,7 +121,7 @@ Partial Class staff
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(64, 212)
+        Me.Button2.Location = New System.Drawing.Point(66, 227)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(338, 48)
         Me.Button2.TabIndex = 19
@@ -133,7 +133,7 @@ Partial Class staff
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(455, 390)
+        Me.ClientSize = New System.Drawing.Size(468, 432)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button4)

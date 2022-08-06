@@ -38,11 +38,11 @@ Partial Class Login
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button1.Location = New System.Drawing.Point(166, 237)
+        Me.Button1.Location = New System.Drawing.Point(169, 241)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(93, 38)
+        Me.Button1.Size = New System.Drawing.Size(116, 44)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = False
@@ -52,9 +52,9 @@ Partial Class Login
         Me.user.BackColor = System.Drawing.Color.WhiteSmoke
         Me.user.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.user.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.user.Location = New System.Drawing.Point(85, 117)
+        Me.user.Location = New System.Drawing.Point(85, 118)
         Me.user.Name = "user"
-        Me.user.Size = New System.Drawing.Size(269, 33)
+        Me.user.Size = New System.Drawing.Size(304, 33)
         Me.user.TabIndex = 1
         '
         'pass
@@ -62,9 +62,9 @@ Partial Class Login
         Me.pass.BackColor = System.Drawing.Color.WhiteSmoke
         Me.pass.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.pass.Location = New System.Drawing.Point(85, 179)
+        Me.pass.Location = New System.Drawing.Point(85, 180)
         Me.pass.Name = "pass"
-        Me.pass.Size = New System.Drawing.Size(269, 33)
+        Me.pass.Size = New System.Drawing.Size(304, 33)
         Me.pass.TabIndex = 2
         Me.pass.UseSystemPasswordChar = True
         '
@@ -73,7 +73,7 @@ Partial Class Login
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(83, 91)
+        Me.Label1.Location = New System.Drawing.Point(83, 92)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(114, 23)
         Me.Label1.TabIndex = 5
@@ -84,7 +84,7 @@ Partial Class Login
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(81, 153)
+        Me.Label2.Location = New System.Drawing.Point(81, 154)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(109, 23)
         Me.Label2.TabIndex = 6
@@ -96,7 +96,7 @@ Partial Class Login
         Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.CheckBox1.Location = New System.Drawing.Point(87, 212)
+        Me.CheckBox1.Location = New System.Drawing.Point(87, 219)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(59, 20)
         Me.CheckBox1.TabIndex = 3
@@ -107,12 +107,12 @@ Partial Class Login
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Label4.Location = New System.Drawing.Point(-73, 0)
+        Me.Label4.Location = New System.Drawing.Point(-85, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Padding = New System.Windows.Forms.Padding(85, 4, 85, 4)
-        Me.Label4.Size = New System.Drawing.Size(584, 37)
+        Me.Label4.Size = New System.Drawing.Size(637, 40)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "HOTEL MANAGEMENT SYSTEM"
         '
@@ -120,12 +120,12 @@ Partial Class Login
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Goldenrod
-        Me.Label5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(-12, 37)
+        Me.Label5.Location = New System.Drawing.Point(-3, 40)
         Me.Label5.Name = "Label5"
         Me.Label5.Padding = New System.Windows.Forms.Padding(169, 4, 169, 4)
-        Me.Label5.Size = New System.Drawing.Size(462, 31)
+        Me.Label5.Size = New System.Drawing.Size(474, 33)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "User Login"
         '
@@ -135,7 +135,7 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(438, 299)
+        Me.ClientSize = New System.Drawing.Size(465, 305)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox1)

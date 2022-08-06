@@ -42,11 +42,11 @@ Partial Class history
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(423, 402)
+        Me.Button2.Location = New System.Drawing.Point(420, 441)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(103, 36)
+        Me.Button2.Size = New System.Drawing.Size(121, 47)
         Me.Button2.TabIndex = 39
         Me.Button2.Text = "Return"
         Me.Button2.UseVisualStyleBackColor = False
@@ -55,11 +55,11 @@ Partial Class history
         '
         Me.ListView1.BackColor = System.Drawing.Color.White
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9})
-        Me.ListView1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ListView1.Font = New System.Drawing.Font("Verdana", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(43, 46)
+        Me.ListView1.Location = New System.Drawing.Point(42, 77)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(883, 348)
         Me.ListView1.TabIndex = 50
@@ -69,7 +69,7 @@ Partial Class history
         'ColumnHeader1
         '
         Me.ColumnHeader1.Text = "Cust_ID"
-        Me.ColumnHeader1.Width = 71
+        Me.ColumnHeader1.Width = 75
         '
         'ColumnHeader2
         '
@@ -84,27 +84,27 @@ Partial Class history
         'ColumnHeader4
         '
         Me.ColumnHeader4.Text = "Contact number"
-        Me.ColumnHeader4.Width = 120
+        Me.ColumnHeader4.Width = 116
         '
         'ColumnHeader5
         '
         Me.ColumnHeader5.Text = "Room type"
-        Me.ColumnHeader5.Width = 84
+        Me.ColumnHeader5.Width = 94
         '
         'ColumnHeader6
         '
         Me.ColumnHeader6.Text = "No. of nights"
-        Me.ColumnHeader6.Width = 85
+        Me.ColumnHeader6.Width = 75
         '
         'ColumnHeader7
         '
         Me.ColumnHeader7.Text = "Check-in date"
-        Me.ColumnHeader7.Width = 110
+        Me.ColumnHeader7.Width = 111
         '
         'ColumnHeader8
         '
         Me.ColumnHeader8.Text = "Check-out date"
-        Me.ColumnHeader8.Width = 121
+        Me.ColumnHeader8.Width = 118
         '
         'ColumnHeader9
         '
@@ -115,11 +115,11 @@ Partial Class history
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(321, 14)
+        Me.Label1.Location = New System.Drawing.Point(283, 21)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(289, 29)
+        Me.Label1.Size = New System.Drawing.Size(390, 38)
         Me.Label1.TabIndex = 51
         Me.Label1.Text = "Transactions History"
         '
@@ -128,7 +128,7 @@ Partial Class history
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(965, 449)
+        Me.ClientSize = New System.Drawing.Size(965, 514)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Button2)

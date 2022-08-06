@@ -37,11 +37,11 @@ Partial Class reservations
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(279, 17)
+        Me.Label4.Location = New System.Drawing.Point(279, 20)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(188, 29)
+        Me.Label4.Size = New System.Drawing.Size(251, 38)
         Me.Label4.TabIndex = 68
         Me.Label4.Text = "Reservations"
         '
@@ -53,7 +53,7 @@ Partial Class reservations
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(38, 49)
+        Me.ListView1.Location = New System.Drawing.Point(60, 73)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(699, 335)
         Me.ListView1.TabIndex = 67
@@ -90,11 +90,11 @@ Partial Class reservations
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button2.Location = New System.Drawing.Point(12, 12)
+        Me.Button2.Location = New System.Drawing.Point(325, 426)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(70, 26)
+        Me.Button2.Size = New System.Drawing.Size(157, 41)
         Me.Button2.TabIndex = 66
         Me.Button2.Text = "Return"
         Me.Button2.UseVisualStyleBackColor = False
@@ -104,7 +104,7 @@ Partial Class reservations
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(769, 413)
+        Me.ClientSize = New System.Drawing.Size(813, 495)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Button2)
