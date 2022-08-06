@@ -107,7 +107,7 @@ Public Class UpdateEmp
                 elastname = '" & lastname.Text & "',
                 gender = '" & gender.Text & "',
                 contact_num= '" & contactNum.Text & "',
-                email ='" & email.Text & "',
+                email ='" & email.Text & "'
                WHERE emp_id = '" & empID.Text & "'"
             cmd = New MySqlCommand(SQL, connect)
             Dim i As Integer = cmd.ExecuteNonQuery
