@@ -148,6 +148,12 @@
     <Compile Include="payroll.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="reservations.Designer.vb">
+      <DependentUpon>reservations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reservations.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="staff.Designer.vb">
       <DependentUpon>staff.vb</DependentUpon>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="payroll.resx">
       <DependentUpon>payroll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reservations.resx">
+      <DependentUpon>reservations.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="staff.resx">
       <DependentUpon>staff.vb</DependentUpon>

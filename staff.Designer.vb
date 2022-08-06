@@ -29,6 +29,7 @@ Partial Class staff
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label4
@@ -78,7 +79,7 @@ Partial Class staff
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button4.Location = New System.Drawing.Point(64, 214)
+        Me.Button4.Location = New System.Drawing.Point(64, 266)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(338, 48)
         Me.Button4.TabIndex = 16
@@ -92,7 +93,7 @@ Partial Class staff
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.Goldenrod
-        Me.Button3.Location = New System.Drawing.Point(64, 270)
+        Me.Button3.Location = New System.Drawing.Point(64, 322)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(338, 48)
         Me.Button3.TabIndex = 17
@@ -113,12 +114,27 @@ Partial Class staff
         Me.Button1.Text = "Check-in/Check-out"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Verdana", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Goldenrod
+        Me.Button2.Location = New System.Drawing.Point(64, 212)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(338, 48)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "Reservations"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'staff
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(222, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(455, 355)
+        Me.ClientSize = New System.Drawing.Size(455, 390)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -144,4 +160,5 @@ Partial Class staff
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class

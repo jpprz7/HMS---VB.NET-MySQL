@@ -29,4 +29,9 @@ Public Class staff
     Private Sub staff_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        reservations.Show()
+        Me.Hide()
+    End Sub
 End Class
