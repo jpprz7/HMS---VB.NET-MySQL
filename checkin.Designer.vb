@@ -69,10 +69,10 @@ Partial Class checkin
         Me.RadioButton1.ForeColor = System.Drawing.Color.White
         Me.RadioButton1.Location = New System.Drawing.Point(36, 27)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(88, 27)
+        Me.RadioButton1.Size = New System.Drawing.Size(138, 27)
         Me.RadioButton1.TabIndex = 3
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Single"
+        Me.RadioButton1.Text = "Single  $75"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -82,10 +82,10 @@ Partial Class checkin
         Me.RadioButton2.ForeColor = System.Drawing.Color.White
         Me.RadioButton2.Location = New System.Drawing.Point(36, 53)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(72, 27)
+        Me.RadioButton2.Size = New System.Drawing.Size(136, 27)
         Me.RadioButton2.TabIndex = 4
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Twin"
+        Me.RadioButton2.Text = "Twin    $95"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton3
@@ -95,10 +95,10 @@ Partial Class checkin
         Me.RadioButton3.ForeColor = System.Drawing.Color.White
         Me.RadioButton3.Location = New System.Drawing.Point(36, 79)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(90, 27)
+        Me.RadioButton3.Size = New System.Drawing.Size(145, 27)
         Me.RadioButton3.TabIndex = 5
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Studio"
+        Me.RadioButton3.Text = "Studio $125"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'GroupBox1
@@ -113,9 +113,9 @@ Partial Class checkin
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.Goldenrod
-        Me.GroupBox1.Location = New System.Drawing.Point(80, 435)
+        Me.GroupBox1.Location = New System.Drawing.Point(48, 433)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(332, 170)
+        Me.GroupBox1.Size = New System.Drawing.Size(414, 177)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Select room type:"
@@ -125,12 +125,12 @@ Partial Class checkin
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton4.ForeColor = System.Drawing.Color.White
-        Me.RadioButton4.Location = New System.Drawing.Point(161, 27)
+        Me.RadioButton4.Location = New System.Drawing.Point(196, 27)
         Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(94, 27)
+        Me.RadioButton4.Size = New System.Drawing.Size(191, 27)
         Me.RadioButton4.TabIndex = 13
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Deluxe"
+        Me.RadioButton4.Text = "Deluxe       $237"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton5
@@ -138,12 +138,12 @@ Partial Class checkin
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton5.ForeColor = System.Drawing.Color.White
-        Me.RadioButton5.Location = New System.Drawing.Point(161, 53)
+        Me.RadioButton5.Location = New System.Drawing.Point(196, 53)
         Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(126, 27)
+        Me.RadioButton5.Size = New System.Drawing.Size(195, 27)
         Me.RadioButton5.TabIndex = 12
         Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Penthouse"
+        Me.RadioButton5.Text = "Penthouse   $345"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'RadioButton6
@@ -151,12 +151,12 @@ Partial Class checkin
         Me.RadioButton6.AutoSize = True
         Me.RadioButton6.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton6.ForeColor = System.Drawing.Color.White
-        Me.RadioButton6.Location = New System.Drawing.Point(161, 79)
+        Me.RadioButton6.Location = New System.Drawing.Point(196, 79)
         Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(139, 27)
+        Me.RadioButton6.Size = New System.Drawing.Size(194, 27)
         Me.RadioButton6.TabIndex = 11
         Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Presidential"
+        Me.RadioButton6.Text = "Presidential $520"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'Pricebox
@@ -166,7 +166,7 @@ Partial Class checkin
         Me.Pricebox.Enabled = False
         Me.Pricebox.Font = New System.Drawing.Font("Verdana", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Pricebox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(66, Byte), Integer))
-        Me.Pricebox.Location = New System.Drawing.Point(36, 116)
+        Me.Pricebox.Location = New System.Drawing.Point(71, 126)
         Me.Pricebox.Name = "Pricebox"
         Me.Pricebox.ReadOnly = True
         Me.Pricebox.Size = New System.Drawing.Size(264, 31)
